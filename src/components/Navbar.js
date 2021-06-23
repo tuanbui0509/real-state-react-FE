@@ -32,7 +32,6 @@ const Logo = styled(Link)`
 `
 
 
-
 // const MenuBars = styled(FaBars)`
 //     display:none;
 //     @media screen and (max-width: 768px){
@@ -55,7 +54,6 @@ const MenuBars = styled.i`
         transform: translate(-50px,-25px);
     }
 `
-
 const NavMenu = styled.i`
     display:flex;
     align-items: center;
