@@ -1,7 +1,8 @@
 import ImageOne from '../images/house1.jpg'
-import ImageTwo from '../images/house2.jpg'
-import ImageThree from '../images/house3.jpg'
-import ImageFour from '../images/house4.jpg'
+import ImageTwo from './../images/house2.jpg'
+import ImageThree from './../images/house3.jpg'
+import ImageFour from './../images/house4.jpg'
+import ImageFive from './../images/house5.jpg'
 
 export const SliderData = [
     {
@@ -34,6 +35,14 @@ export const SliderData = [
         path: '/homes',
         label: 'View Home',
         image: ImageFour,
+        alt: 'House'
+    },
+    {
+        title: 'Luxury Villa in Vung Tau, Viet Nam',
+        price: '$65.664',
+        path: '/homes',
+        label: 'View Home',
+        image: ImageFive,
         alt: 'House'
     }
 ]

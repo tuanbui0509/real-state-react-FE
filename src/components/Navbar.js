@@ -5,16 +5,15 @@ import { MenuData } from '../data/MenuData';
 import { Button } from '../components/Button';
 import {FaBars} from 'react-icons/fa'
 import bars from '../images/bars.svg'
+
 const Nav = styled.nav`
     height: 60px;
-    background:#555;
     justify-content: space-between;
     padding: 1rem 2rem;
     position: fixed;
     z-index: 100;
     width: 100%;
     display:flex;
-    position:relative;
 `
 const NavLink = css`
     color: #fff;
