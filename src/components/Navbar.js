@@ -73,7 +73,7 @@ const NavBtn = styled.div`
         display: none;
     }
 `
-const Navbar = ({toggle}) => {
+const Navbar = ({ toggle }) => {
     return (
         <Nav>
             <Logo to='/'>ELIXR</Logo>
