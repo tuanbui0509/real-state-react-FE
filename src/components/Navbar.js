@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components'
 import { Link } from 'react-router-dom'
 import { MenuData } from '../data/MenuData';
 import { Button } from '../components/Button';
-import {FaBars} from 'react-icons/fa'
+// import {FaBars} from 'react-icons/fa'
 import bars from '../images/bars.svg'
 
 const Nav = styled.nav`
@@ -73,11 +73,11 @@ const NavBtn = styled.div`
         display: none;
     }
 `
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <Nav>
             <Logo to='/'>ELIXR</Logo>
-            <MenuBars />
+            <MenuBars onClick={toggle} />
             <NavMenu>
                 {MenuData.map((item, index) => {
                     return (<NavMenuLinks to={item.link} key={index}>
